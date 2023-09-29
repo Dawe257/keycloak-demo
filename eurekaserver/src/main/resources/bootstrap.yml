@@ -4,3 +4,7 @@ spring:
     cloud:
         config: 
             uri: http://configserver:8071
+
+logging:
+  level:
+    root: debug

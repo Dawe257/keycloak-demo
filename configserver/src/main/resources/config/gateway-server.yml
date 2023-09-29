@@ -5,7 +5,9 @@ logstash.host: 3.136.161.26:5000
  
 logging: 
   config: classpath:logback-delayed.xml
-  
+  level:
+    root: debug
+
  
 eureka:
   instance:
